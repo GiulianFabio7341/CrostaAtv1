@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    font-family: "Inter", sans-serif;
+    color: rgb(12, 12, 12);
+}
+
+header {
+height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: black;
+    color: white;
+    
+}
+
+header img {
+    height: 25px;
+}
+
+header h2{
+margin: 12px;
+font-weight: 500;
+color: white;
+}
+div#tópicos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin-right: 100px;
+
+}
+
+div#tópicos button {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    width: 120px;
+    border-radius: 10px ;
+    border-style: solid;
+    border-color: white;
+}
+div#tópicos button:hover {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+   transition: 0.6s;
+}
+
+div#user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+div#user a {
+    margin: 10px;
+}
+
+
+main{
+    background-color: rgb(236, 119, 201);
+    height: 200px;
+    color: black;
+}
+
+main section{
+    background-color:rgb(242, 96, 255) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+main h3{
+    text-align: center;
+    font-weight: 500;
+}
+
+main section p{
+    
+    font-weight: 500;
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px;
+width: 50%;
+   
+}
+
+main section img{
+    height: 300px;
+    width: 600px;
+}
+
+main section ol{
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+ summary {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(222, 99, 247) 0%,   rgb(194, 64, 206) 100%);
+    color: #fff;
+    border-radius: 2px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  user-select: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  summary::-webkit-details-marker {
+     display: none;
+  }
+  
+  summary:before {
+     
+     font-size: 20px;
+     font-weight: bold;
+     margin: 0 5px;
+     padding: 0;
+     text-align: center;
+  }
+  
+  details[open] summary:before {
+    content: "-";
+  }
+  details[open] summary{
+    transition:0.3s ;
+  }
+
+
+  footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 320px;
+    line-height: 40px;
+   text-align: center;
+}
+span{
+    color: white;
+}
